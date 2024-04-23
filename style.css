@@ -1,0 +1,39 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/1901120.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-flex;
+}
+
+.grid{
+    padding: 20px;
+    height: 560px;
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+    border: 10px solid rgb(156, 52, 69);
+    margin-left: 100px;
+}
+
+.score-board{
+    padding: 20px;
+    border: 10px solid pink;
+    display: inline-block;
+    height: fit-content;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: pink;
+}
+
+.grid div{
+    height: 70px;
+    width: 70px;
+}
+
+#crush{
+    width: 160px;
+    height: 150px;
+    margin-top: 480px;
+}
